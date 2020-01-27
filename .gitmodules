@@ -1,0 +1,3 @@
+[submodule "asteroids-demo"]
+	path = asteroids-demo
+	url = https://github.com/sheepandshepherd/asteroids-demo.git
