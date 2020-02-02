@@ -48,7 +48,7 @@ public:
 			// global y coordinate of this block
 			long height = coordinate.y + y;
 
-			float airProbability = clamp(height / (Chunk.size * Sector.size), 0f, 1f);
+			float airProbability = clamp((cast(float)height) / (Chunk.size * Sector.size), 0f, 1f);
 
 			// 0 if air, 1 if not
 			if(dice(airProbability, 1f-airProbability))
