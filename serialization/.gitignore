@@ -1,0 +1,11 @@
+.dub
+docs.json
+__dummy.html
+docs/
+bin/
+views/
+.import/
+*.dll
+*.o
+*.obj
+*.lst

@@ -13,9 +13,9 @@ struct Coordinate
 	Sector.Cell sectorCell() const
 	{
 		Sector.Cell c;
-		c.x = (cast(ubyte)x) % Sector.size;
-		c.y = (cast(ubyte)y) % Sector.size;
-		c.z = (cast(ubyte)z) % Sector.size;
+		c.x = cast(ubyte)(x / Chunk.size) % Sector.size;
+		c.y = cast(ubyte)(y / Chunk.size) % Sector.size;
+		c.z = cast(ubyte)(z / Chunk.size) % Sector.size;
 		return c;
 	}
 

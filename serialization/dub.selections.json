@@ -1,0 +1,10 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"asdf": "0.5.3",
+		"cerealed": "0.6.11",
+		"concepts": "0.0.8",
+		"godot-d": "0.1.8",
+		"unit-threaded": "0.7.55"
+	}
+}
