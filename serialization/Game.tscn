@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scripts/VoxelWorld.gdns" type="Script" id=1]
+
+[node name="Game" type="Node"]
+
+[node name="VoxelWorld" type="GridMap" parent="."]
+data = {
+"cells": PoolIntArray(  )
+}
+script = ExtResource( 1 )
+__meta__ = {
+"_editor_clip_": 0
+}
+
+[node name="Camera" type="Camera" parent="VoxelWorld"]
+transform = Transform( -0.569251, 0, -0.822164, 0, 1, 0, 0.822164, 0, -0.569251, -200, 200, -200 )
+current = true
+far = 1000.0
